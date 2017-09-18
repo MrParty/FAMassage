@@ -8,7 +8,6 @@
 
 #import "FAMainViewController.h"
 #import "TableViewAnimationKit.h"
-#import "MainTableViewCell.h"
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 @interface FAMainViewController ()<UITableViewDelegate,UITableViewDataSource>
@@ -58,9 +57,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *identifier = @"cellIdentifier";
-    MainTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     if (!cell) {
-        cell = [[MainTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
         
         CGFloat width = [[UIScreen mainScreen] bounds].size.width - 30;
         UIView *view = [[UIView alloc] initWithFrame:CGRectMake(15, 10, width, 80)];

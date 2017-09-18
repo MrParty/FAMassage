@@ -13,8 +13,6 @@
 		32030B891F6FE8B9009AE9DC /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B871F6FE8B9009AE9DC /* UITableView+XSAnimationKit.m */; };
 		32030B901F6FF410009AE9DC /* FALeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B8C1F6FF410009AE9DC /* FALeftViewController.m */; };
 		32030B911F6FF410009AE9DC /* FAMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B8F1F6FF410009AE9DC /* FAMainViewController.m */; };
-		32030B951F6FF43F009AE9DC /* MainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 32030B931F6FF43F009AE9DC /* MainTableViewCell.m */; };
-		32030B961F6FF43F009AE9DC /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32030B941F6FF43F009AE9DC /* MainTableViewCell.xib */; };
 		3295917A1F66C7F90009E8AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 329591791F66C7F90009E8AE /* main.m */; };
 		329591831F66C7F90009E8AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329591811F66C7F90009E8AE /* Main.storyboard */; };
 		329591851F66C7F90009E8AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329591841F66C7F90009E8AE /* Assets.xcassets */; };
@@ -36,9 +34,6 @@
 		32030B8C1F6FF410009AE9DC /* FALeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FALeftViewController.m; sourceTree = "<group>"; };
 		32030B8E1F6FF410009AE9DC /* FAMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FAMainViewController.h; sourceTree = "<group>"; };
 		32030B8F1F6FF410009AE9DC /* FAMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FAMainViewController.m; sourceTree = "<group>"; };
-		32030B921F6FF43F009AE9DC /* MainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableViewCell.h; sourceTree = "<group>"; };
-		32030B931F6FF43F009AE9DC /* MainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableViewCell.m; sourceTree = "<group>"; };
-		32030B941F6FF43F009AE9DC /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		329591751F66C7F90009E8AE /* FAMassage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FAMassage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329591791F66C7F90009E8AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		329591821F66C7F90009E8AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -120,9 +115,6 @@
 			children = (
 				32030B8E1F6FF410009AE9DC /* FAMainViewController.h */,
 				32030B8F1F6FF410009AE9DC /* FAMainViewController.m */,
-				32030B921F6FF43F009AE9DC /* MainTableViewCell.h */,
-				32030B931F6FF43F009AE9DC /* MainTableViewCell.m */,
-				32030B941F6FF43F009AE9DC /* MainTableViewCell.xib */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -227,7 +219,6 @@
 			files = (
 				329591881F66C7F90009E8AE /* LaunchScreen.storyboard in Resources */,
 				329591851F66C7F90009E8AE /* Assets.xcassets in Resources */,
-				32030B961F6FF43F009AE9DC /* MainTableViewCell.xib in Resources */,
 				329591831F66C7F90009E8AE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,7 +236,6 @@
 				32030B801F6FE897009AE9DC /* FARootViewController.m in Sources */,
 				32030B911F6FF410009AE9DC /* FAMainViewController.m in Sources */,
 				32030B901F6FF410009AE9DC /* FALeftViewController.m in Sources */,
-				32030B951F6FF43F009AE9DC /* MainTableViewCell.m in Sources */,
 				3295917A1F66C7F90009E8AE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
