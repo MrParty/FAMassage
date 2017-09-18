@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D6A7A7803B3EE1DC66C4DDE87E24C7B86A840227",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D6A7A7803B3EE1DC66C4DDE87E24C7B86A840227" : 9223372036854775807,
+    "F0BCEE020CF74E1D3DA176F11135FD290E7CA0F3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "16A749F0-F716-45B8-BD4C-360FD2C09B64",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D6A7A7803B3EE1DC66C4DDE87E24C7B86A840227" : "FAMassage\/",
+    "F0BCEE020CF74E1D3DA176F11135FD290E7CA0F3" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FAMassage",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FAMassage.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MrParty\/FAMassage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6A7A7803B3EE1DC66C4DDE87E24C7B86A840227"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:MrParty\/FAFirstApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F0BCEE020CF74E1D3DA176F11135FD290E7CA0F3"
+    }
+  ]
+}
